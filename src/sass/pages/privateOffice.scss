@@ -1,0 +1,53 @@
+.private {
+  padding: 70px 0px 0px 95px;
+
+  height: 100vh;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    &__top {
+      display: flex;
+      align-items: center;
+      gap: 172px;
+      h2,
+      button {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(17, 110, 204, 0.6);
+      }
+    }
+    &__bottom {
+      display: flex;
+
+      gap: 105px;
+      img {
+        width: 100%;
+        max-width: 200px;
+        height: 220px;
+        object-fit: cover;
+      }
+      .private__bottom__right {
+        padding: 31px 35px;
+        background-color: white;
+        box-shadow: 0px 0px 2px 2px #ddd;
+      }
+      table,
+      th,
+      td {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 16px;
+        color: #8d8484;
+        text-align: start;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        height: 40px;
+        width: 200px;
+      }
+    }
+  }
+}

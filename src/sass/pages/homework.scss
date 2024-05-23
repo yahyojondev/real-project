@@ -1,0 +1,81 @@
+.homework {
+  padding: 69px 0px 155px;
+  //   height: 100vh;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    &__top {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+    &__bottom {
+      width: 100%;
+      max-width: 1500px;
+      padding: 140px 130px;
+      background-color: white;
+      table,
+      td,
+      th {
+        text-align: start;
+        border: 1px solid #dad7d7;
+        border-collapse: collapse;
+      }
+      table {
+        thead {
+          tr {
+            th {
+              padding-left: 40px;
+            }
+          }
+        }
+        width: 100%;
+        #body__text {
+          padding: 0px 10px;
+          padding-right: 200px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .vazifalar__wrapper__left {
+            svg {
+              color: #000;
+            }
+            display: flex;
+            align-items: center;
+            width: 100%;
+            max-width: 300px;
+            gap: 100px;
+            background-color: #c9edff;
+            height: 25px;
+            border-radius: 5px;
+            padding: 0 10px;
+            p {
+              font-family: Inter;
+              font-weight: 400;
+              font-size: 12px;
+            }
+          }
+          .vazifalar__wrapper__right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 25px;
+            border: 1px solid #059be5;
+            border-radius: 3px;
+          }
+        }
+      }
+      th,
+      td {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        color: #8d8484;
+        padding-left: 30px;
+        height: 50px;
+      }
+    }
+  }
+}

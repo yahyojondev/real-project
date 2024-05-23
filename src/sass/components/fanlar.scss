@@ -1,0 +1,107 @@
+.fanlar {
+  padding: 40px 0px 60px;
+  background-color: #ffffffff;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    .fanlar__top {
+      h2 {
+        color: #000;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: 0%;
+      }
+    }
+    .fanlar__center {
+      .fanlar__card {
+        padding: 10px;
+        border-radius: 10px;
+        width: 300px;
+        border: 1px solid #ddd;
+        background-color: rgb(242, 242, 242);
+        img {
+          width: 100%;
+          border-radius: 10px;
+          height: 200px;
+          object-fit: cover;
+        }
+        &__content {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          padding: 10px 0px;
+          height: 190px;
+          p {
+            color: #8c8c8c;
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0%;
+          }
+          h3 {
+            color: rgb(51, 90, 80);
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: center;
+            height: 71px;
+          }
+          .fanlar__btn {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            right: 0;
+            bottom: 10px;
+            border: none;
+            outline: none;
+            width: 48px;
+            height: 48px;
+            background-color: rgb(51, 90, 80);
+            border-radius: 50%;
+            svg {
+              font-size: 20px;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+    .fanlar__bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      button {
+        width: 277px;
+        font-family: Inter;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        color: #335a50;
+        border: 2px solid #335a50;
+        background-color: white;
+        height: 50px;
+        text-decoration: underline;
+      }
+      .images__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 92px;
+        img {
+          height: 80px;
+          width: 150px;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}

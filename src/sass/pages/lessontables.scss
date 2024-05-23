@@ -1,0 +1,75 @@
+.lesson {
+  padding: 50px 0px 20px;
+  height: 100vh;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    &__top {
+      display: flex;
+      align-items: center;
+      gap: 477px;
+      h2 {
+        color: #8d8484;
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 29px;
+      }
+      .top__right {
+        display: flex;
+        align-items: center;
+        gap: 350px;
+      }
+    }
+    &__bottom {
+      width: 100%;
+      max-width: 1270px;
+      padding: 5px;
+      background-color: white;
+      table,
+      th,
+      td {
+        border: 1px solid #8d8484;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 12px;
+        vertical-align: middle;
+        text-align: center;
+        width: 200px;
+        height: 40px;
+      }
+      td {
+        padding: 5px;
+      }
+      table {
+        #table__data {
+          width: 70px;
+        }
+      }
+      table {
+        tbody {
+          #blue {
+            background-color: #059be5;
+          }
+          #red {
+            background-color: #ff8f8f;
+          }
+          #yellow {
+            background-color: #f7e439;
+          }
+          #sinyellow {
+            background-color: #f5efb8;
+          }
+          #green {
+            background-color: #8dfc71;
+          }
+        }
+      }
+    }
+  }
+}

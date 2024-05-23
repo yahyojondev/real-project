@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1540px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.homeContainer {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.sertifikate__container {
+  width: 1000%;
+  max-width: 1250px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+@import "./components/navbar.scss";
+@import "./components/footer.scss";
+@import "./pages/login.scss";
+@import "./layout/navbar.scss";
+@import "./layout/footer.scss";
+@import "./components/hero.scss";
+@import "./components/classroom.scss";
+@import "./components/fanlar.scss";
+@import "./components/downLoadLogin.scss";
+@import "./components/sertifikat.scss";
+@import "./pages/lessontables.scss";
+@import "./pages//science.scss";
+@import "./pages/homework.scss";
+@import "./pages/privateOffice.scss";

@@ -1,0 +1,17 @@
+.hero {
+  padding: 450px 0px 100px;
+  height: 680px;
+  width: 100%;
+  &__wrapper {
+    h1 {
+      width: 100%;
+      max-width: 800px;
+      color: #fff;
+      font-family: Inter;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 48px;
+      letter-spacing: 0%;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.sertifikat {
+  padding: 150px 0px 60px;
+  // height: 100vh;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 250px;
+    &__top {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      h2 {
+        color: #000;
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+      }
+      table,
+      th,
+      td {
+        padding-left: 20px;
+        border: 1px solid #b1a9a9;
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        width: 150px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 29px;
+        text-align: start;
+        color: #000;
+        height: 50px;
+      }
+    }
+    .sertifikat__wrapper__bottom {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      button {
+        font-size: 16px;
+        font-family: Inter;
+        font-weight: 400;
+        line-height: 29px;
+      }
+    }
+  }
+}
